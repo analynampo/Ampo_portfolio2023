@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete website with Bootstrap, HTML,CSS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://kit.fontawesome.com/597f00a56f.js" crossorigin="anonymous"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/analyn logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-targer="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slides">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#langg">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-targer="#slides" data-slide-top="0"></li>
+            <li data-targer="#slides" data-slide-top="1"></li>
+            <li data-targer="#slides" data-slide-top="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/purple bg.jpg">
+                <div class="carousel-caption">
+                    <h1 class="displa-2">Welcome</h1>
+                    <h3>let me give you a quick tour</h3>
+                    <!--<button type="button" class="btn btn-outline-light btn-lg">Dowload Resume</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get started</button> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/purple bg2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/purple bg3.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!--- Jumbotron -->
+    <!--- Two Column Section -->
+    <div id="about" class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>Hello!</h2>
+                <p>I'm Analyn P. Ampo but you can call me Ana, I graduated Cum Laude from Quezon City University with the course of Bachelors of Science in Information Technology, and also a former scholar and one of the Ambassador of ABC Childrens Mission Philippines.</p>
+                <p>I'm a freelance Ui/Ux Designer in a small business called Adsvanced media tech that build and maintain websites also a graphic designer and Social media Analyst at Gala 2Go travel and tours. </p>
+                <p>During my internship in Brgy. Bagong Silangan I was assign as a Frontend Designer which im responsible to create the Wireframing and Prototype of website and mobile application for my Capstone Project. thoughout my College days ive experience and encounter to use Programming Languages like: <b>PHP, Visual Basic, Java</b> recently exploring <b>Javascript</b>. I also know how to use <b>HTML5, CSS3, Bootstrap4</b></p>
+
+                <!--<p>Im a former member of QCU GANAP-theater club on 2018 because I do enjoy perfoming on stage,then on 2019 I decided to audition in QCU-pepsquad which i showcase my stunts and flexibility of my body, and lastly on 2020 I was accepted as a Video Editor to QCU Creative Student Socienty-Likha Production to enchance my Editing skills. </p> -->
+
+                <br>
+                <a href="https://drive.google.com/file/d/1Bb8o8WRVDGHuYrkrnG7r5HkS6wwVYjy1/view?usp=sharing" download class="btn btn-primary">Download Resume</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/ana.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4"
+	<!--- Fixed background -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+
+            </div>
+        </div>
+    </figure>
+
+
+    <!--- recent projects -->
+    <div class="container-fluid paddinng">
+        <div class="row welcome text-center">
+            <div id="works" class="col-12">
+                <h1 class="display-4">Recent Projects</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!--- Cards -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/theme 1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">ADSvanced Media Tech</h4>
+                        <p>Is A Web Development Company that build and maintain website for small business owners, with a wide variety of services offered like graphics designs, posters logo, brochures and more. </p>
+                        <!-- <a href="#" class="btn btn-outline-secondary">See Profile</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/theme 2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Cosmetics Product</h4>
+                        <p>Its a Cosmetics brand theme of Adsvanced media tech for their future costumers. it inspired by the brand Brilliant Skin essentials</p>
+                        <!--<a href="#" class="btn btn-outline-secondary">See Profile</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/theme 3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Shoe brand Product</h4>
+                        <p>Its a Shoe brand theme of Adsvanced media tech for their future costumers.it inspired by Nike </p>
+                        <!-- a href="#" class="btn btn-outline-secondary">See Profile</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- Welcome Section -->
+    <div id="langg" class=" container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Skills</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">"Learning how to learn is life's most important skill." <br>-Tony Buzan</p>
+            </div>
+        </div>
+    </div>
+    <!--- Three Column Section -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <!--java-->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa-brands fa-java"></i>
+                <h3>JAVA</h3>
+            </div>
+            <!--php-->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa-brands fa-php"></i>
+                <h3>PHP</h3>
+            </div>
+            <!--js-->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa-brands fa-js"></i>
+                <h3>Javascript</h3>
+            </div>
+            <!--html-->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <!--css-->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+            </div>
+            <!--BOOTSTRAP-->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>BOOTSRAP</h3>
+            </div>
+
+
+
+        </div>
+        <hr class="my-4">
+    </div>
+
+
+    <!--- Emoji Section
+    <button class="fun" data-toggle="collapse" data-target="#emoji"> click for fun
+    </button>
+    <div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+    <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/panda.gif" >
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/chicken.gif" >
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/poo.gif" >
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/unicorn.gif" >
+                </div>
+    </div>
+    </div>
+    </div>
+     -->
+    <!--- Two Column Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <img src="img/opportunity.jpg" class="img-fluid">
+            </div> 
+            <div class="col-md-12 col-lg-6">
+                <h2></h2>
+                <p>
+                    "Don't settle for average. Bring your best to the moment. then,whether it fails or succeeds, at least you know you gave all you had."
+                    <br /><br /> -Angela Bassett
+
+                </p>
+                <br>
+            </div>
+
+        </div>
+    </div>
+
+    <hr class="my-4>"
+    <!--- Connect -->
+    <div id="contacts" class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="https://www.facebook.com/anaizgorg/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/anabie06/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/analyn logo.png">
+                    <hr class="light">
+                    <p>09208538510</p>
+                    <p>analyn.pagador.ampo@gmail.com</p>
+                    <p>17 merciful street area 4 sitio </p>
+                    <p>veterans Bagong Silangan QC,1119</p>
+                </div>
+             
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<!-- View in Browser -->
+<!--<div class="youtube-tutorial">
+	<a href="https://w3newbie.com/resources/" target="_blank" style="cursor: pointer!important;">
+    <img src="https://w3newbie.com/wp-content/uploads/12-site-bundle-banner.png" style="max-width: 100%; position: absolute; bottom: 0;">
+  </a>-->
+</div>
+<!-- End View in Browser -->
